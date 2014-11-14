@@ -165,13 +165,13 @@ void printAll(){
 void lights(){
   //saturation
   colorMap(satOut());
-  strip.setPixelColor(2, color[0], color[1], color[2]);
+  strip.setPixelColor(2, color[0], color[1], color[2]); //leftmost indicator
   //photo
   colorMap(photoOut());
-  strip.setPixelColor(1, color[0], color[1], color[2]);
+  strip.setPixelColor(1, color[0], color[1], color[2]); //middle indocator
   //therm
   colorMap(thermOut());
-  strip.setPixelColor(0, color[0], color[1], color[2]);
+  strip.setPixelColor(0, color[0], color[1], color[2]); //rightmost indicator
   strip.setBrightness(brightness[brightnessC]);
   strip.show();
 };
