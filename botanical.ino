@@ -68,7 +68,7 @@ int thermOut(){
   steinhart -= 273.15; //from kelvin to C
   steinhart =  steinhart*9/5+32; //to convert from C to F
   //this equation is correct, for a 10k thermistor with a 10k resistor and a 5v pin, 
-  //but for some reason the output on my cheat arduino knockoff isn't supplying enough power
+  //but for some reason the output on my cheap arduino knockoff isn't supplying enough power
   //consequently, the temperature yielded is consistently 10 degrees f higher than
   //what it should be, so...
   steinhart = steinhart - 10; //to fix the problem
