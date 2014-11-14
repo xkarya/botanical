@@ -15,8 +15,8 @@ int tempHigh = 65; //max comfortable temp
 int tempLow = 32; //lowest okay temp
 int photoHigh = 1000; //direct sunlight
 int photoLow = 50; //darkness, more or less
-int satHigh = 700; //max saturation, is inverted scale
-int satLow = 950; //very very dry
+int satHigh = 700; //max saturation, is inverted scale.  subject to change.
+int satLow = 950; //very very dry.  subject to change.
 
 //misc.
 float steinhart; //for steinhart equation
